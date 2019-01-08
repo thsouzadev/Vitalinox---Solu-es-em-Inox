@@ -2,13 +2,13 @@
 
 // Mudar Aqui
 
-$email_envio = 'comercial@safeprotecnologia.com.br'; // E-mail receptor
-$email_pass = 'S@fe4625'; // Senha do e-mail
+$email_envio = 'vendas@vitalinox.com.br'; // E-mail receptor
+$email_pass = '###'; // Senha do e-mail
 
-$site_name = 'SafePro Tecnologia'; // Nome do Site
-$site_url = 'www.safeprotecnologia.com.br'; // URL do Site
+$site_name = 'Vitalinox-Soluções em Inox'; // Nome do Site
+$site_url = 'www.vitalinox.com.br'; // URL do Site
 
-$host_smtp = 'br236.hostgator.com.br'; // HOST SMTP Ex: smtp.domain.com.br
+$host_smtp = '###'; // HOST SMTP Ex: smtp.domain.com.br
 $host_port = '465'; // Porta do Host
 
 // Variáveis do Formulário
