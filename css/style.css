@@ -1,0 +1,509 @@
+/*GERAL*/
+
+.title {
+  color: white;
+  font-size: 36px;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-weight: bold;
+}
+.text-black {
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #000000;
+  line-height: 32px;
+}
+.p-white {
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  line-height: 32px;
+}
+h1 {
+  color: #000000;
+  font-size: 24px;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 49px;
+  height: 3px;
+  background: #000000;
+  margin: 7px auto;
+}
+h2 {
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.btn-color {
+  border: 3px solid #026DBB;
+  font-size: 18px;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-weight: bold;
+  color: #026DBB;
+  padding: 10px; 
+}
+.btn-white {
+  border: 3px solid #fff;
+  font-size: 18px;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px; 
+}
+.btn-color:hover {
+  background: #026DBB;
+  color: #fff;
+  transition: 0.5s ease;
+}
+.btn-white:hover {
+  background: orange;
+  border: 3px solid orange;
+  color: #026DBB;
+  transition: 0.25s linear;
+}
+a:link {
+  text-decoration: none;
+}
+.svg-size {
+  width: 25%;
+}
+
+footer h2::after {
+  content: "";
+  display: block;
+  width: 49px;
+  height: 3px;
+  background: #000000;
+  margin: 7px auto;
+}
+.ul-footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 82px;
+}
+li {
+  list-style: none;
+}
+.rodape {
+  background: #026DBB; 
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+  line-height: 32px;
+  bottom: 0 auto;
+}
+.produtos {
+  font-family: 'Roboto Condensed',sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  background: rgba(1,45,203,0.4);
+  padding: 20px;
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;
+}
+.produtos:hover {
+  background: rgba(72,73,75,0.5);
+  transition: 0.25 ease-in;
+  color: #fff;
+}
+.produtos-interno {
+  font-family: 'Roboto Condensed',sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgba(1,45,203,0.6);
+  padding: 20px;
+  margin-top: 85px;
+  display: flex;
+  justify-content: center;
+}
+.produtos-interno:hover {
+  background: rgba(72,73,75,0.5);
+  transition: 0.25 ease-in;
+  color: #fff;
+}
+.div-produtos {
+  
+}
+.div-produtos:hover {
+  transition: all .1s ease-in-out;
+  transform: scale(1.05);
+  -webkit-transition:all .2s ease-in-out;
+  -moz-transition:all .2s ease-in-out;
+  -ms-transition:all .2s ease-in-out;
+  -o-transition:all .2s ease-in-out;
+  -webkit-transition:scale(1.05);
+  -moz-transition:scale(1.05);
+  -ms-transition:scale(1.05);
+  -o-transition:scale(1.05);
+}
+
+/*HEADER*/
+
+#logotipo {
+  padding-top: 26px;
+  padding-bottom: 26px;  
+}
+.nav-text {
+  color: #026DBB!important;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  padding-top: 25px;
+}
+.navbar-nav:first-child {
+  margin-left: 100px;
+}
+.redes-sociais {
+  margin-right: 176px;
+}
+.nav-text:hover {
+  border-bottom: 2px solid #026DBB;
+}
+/*--------------------------------HOME----------------------------------*/
+
+/*INTRODUCAO*/
+
+.bg-intro {
+  height: 100%;
+  width: 100%;
+  padding-top: 150px;
+  background: url(../img/bg-home.jpg) no-repeat center;
+  background-size: cover;
+}
+.bg-intro p {
+  padding-bottom: 150px;
+}
+
+/*SERVIÇOS*/
+
+.service-card {
+  background: #E5F0F8;
+  padding-bottom: 20px
+  
+}
+.acessibilidade img {
+  padding-top: 30px;
+}
+.acessibilidade h2 {
+  padding-bottom: 15px;
+}
+.corrimao img {
+  padding-top: 35px;
+}
+.corrimao h2 {
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+.revestimento img {
+  padding-top: 35px;
+}
+.revestimento h2 {
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+.hidrante img {
+  padding-top: 35px;
+}
+.hidrante h2 {
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+.guardaCorpo img {
+  padding-top: 35px;
+}
+.guardaCorpo h2 {
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+.guardaCorpoVidro img {
+  padding-top: 35px;
+}
+.guardaCorpoVidro h2 {
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+.guardaCorpoVidro p {
+  padding-bottom: 35px
+}
+
+/*HOME QUEBRA*/
+
+#home-quebra {
+  background: url(../img/bg-home-2.jpg) no-repeat center;
+  background-size: cover;
+  padding: 100px;
+  margin-top: 40px;
+}
+
+/*--------------------------------QUEM SOMOS----------------------------------*/
+
+/* INTRODUÇÃO */
+
+.bg-intro-quemSomos {
+  background: url(../img/bg-quemSomos-01.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 150px;
+}
+
+/* QUEM SOMOS */
+
+.quemSomos h1::after {
+  margin: 7px 0px;
+}
+#quemSomos-02 {
+  background: url(../img/bg-quemSomos-03.jpg) no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%!important;
+  display: flex;
+  justify-content: flex-end;
+}
+#quemSomos-02 p {
+  padding: 120px;
+}
+
+/* DIFERENCIAL */
+
+.svg-div-01 {
+  margin-bottom: 65px;
+}
+.svg-div-03 {
+  margin-bottom: 40px;
+}
+.svg-div p::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background: #000000;
+  margin: 7px auto;  
+}
+#img-diferencial {
+  
+}
+
+/* QUEM SOMOS QUEBRA */
+
+#quemSomos-quebra {
+  background: url(../img/quemSomos-quebra.jpg) no-repeat center;
+  background-size: cover;
+  height: 100%;
+  padding: 55px;
+}
+
+/*--------------------------------PRODUTOS----------------------------------*/
+
+.bg-produtos {
+  background: url(../img/bg-produtos.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 150px;
+}
+
+.produto-01 {
+  background: url(../img/acessibilidade.jpg) no-repeat center;
+  background-size: contain;
+  width: 360px;
+  height: 240px;
+}
+.produto-02 {
+  background: url(../img/Corrim%C3%A3o.jpg) no-repeat center;
+  background-size: contain;
+  width: 360px;
+  height: 240px;
+}
+.produto-03 {
+  background: url(../img/Revestimentos.jpg) no-repeat center;
+  background-size: contain;
+  width: 360px;
+  height: 240px;
+}
+.produto-04 {
+  background: url(../img/hidrante.jpg) no-repeat center;
+  background-size: contain;
+  width: 360px;
+  height: 240px;
+}
+.produto-05 {
+  background: url(../img/guarda_corpo.jpg) no-repeat center;
+  background-size: contain;
+  width: 360px;
+  height: 240px;
+}
+.produto-06 {
+  background: url(../img/guarda_corpo_vidro.jpg) no-repeat center;
+  background-size: contain;
+  width: 360px;
+  height: 240px;
+}
+
+/*--------------------------------CONTATO----------------------------------*/
+.bg-contato {
+  background: url(../img/bg-contato.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 150px;
+}
+.contato label {
+  font-family: 'Roboto Condensed',Arial,sans-serif;
+  font-size: 16px;
+}
+.contato input {
+  display: flex;
+  width: 350px;
+  height: 35px;
+  border: 2px solid #026DBB;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+textarea#mensagem {
+  display: flex;
+  width: 350px;
+  height: 140px;
+  overflow: hidden;
+  resize: none;
+  border: 3px solid #00a8cd;
+  margin-bottom: 15px;
+}
+input::placeholder, textarea::placeholder {
+  font-size: 15px;
+  font-family: 'Roboto Condensed',Arial, sans-serif;
+}
+button#enviar {
+  padding: 5px 30px;
+}
+#map {
+  margin-top: 32px
+}
+#placeholder, #phone, #mail {
+  display: flex;
+  align-items: center
+}
+#placeholder img, #phone img, #mail img {
+  margin-right: 10px;
+}
+#placeholder p, #phone p, #mail p {
+  margin-top: 15px;
+  font-size: 15px;
+}
+#contato-quebra p {
+  color: #026DBB;!important
+}
+
+/*Style para Hide do Formulário*/
+
+.formphp label.nao-aparece, .formphp input.nao-aparece {
+	display: none !important;
+}
+
+#form-erro span, #form-send span  {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#form-send {
+	color: #31aa39;
+}
+
+#form-erro {
+	color: #f64540;
+}
+
+/*---- CONTATO-QUEBRA ----*/
+
+#contato-quebra {
+  background: url(../img/quebra-contato.jpg) no-repeat center;
+  background-size: cover;
+  height: 100%;
+  padding: 55px;
+}
+
+/*--------------- ACESSIBILIDADE -----------------*/
+
+.bg-acessibilidade {
+  background: url(../img/bg-acessibilidade.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 190px;
+}
+#acessibilidade {
+  background: url(../img/bg-acessibilidade02.jpg) no-repeat center;
+  background-size: contain;
+}
+#acessibilidade-text {
+  text-align: left;
+  padding-top: 45px;
+}
+#acessibilidade-text h1::after {
+  margin: 0;
+  margin-top: 7px;
+}
+#acessiblidade-item01 {
+  background: url(../img/banco_articulado_banho.jpg) no-repeat center;
+  background-size: contain;
+  width: 270px;
+  height: 240px;
+   
+}
+#acessiblidade-item02 {
+  background: url(../img/barra_apoio_angular.jpg) no-repeat center;
+  background-size: contain;
+  width: 270px;
+  height: 240px;
+}
+#acessiblidade-item03 {
+  background: url(../img/barra_apoio_articulada.jpg) no-repeat center;
+  background-size: contain;
+  width: 270px;
+  height: 240px;
+}
+#acessiblidade-item04 {
+  background: url(../img/barra_apoio_cavalete01.jpg) no-repeat center;
+  background-size: contain;
+  width: 270px;
+  height: 240px;
+}
+#acessiblidade-item05 {
+  background: url(../img/barra_apoio_H.jpg) no-repeat center;
+  background-size: contain;
+  width: 270px;
+  height: 240px;
+}
+#acessiblidade-item06 {
+  background: url(../img/barra_apoio_lavatorio.jpg) no-repeat center;
+  background-size: contain;
+  width: 270px;
+  height: 240px;
+}
+#acessiblidade-item07 {
+  background: url(../img/barra_apoio_L.jpg) no-repeat center;
+  background-size: contain;
+  width: 270px;
+  height: 240px;
+}
+#acessiblidade-item08 {
+  background: url(../img/barra_apoio_reta.jpg) no-repeat center;
+  background-size: contain;
+  width: 270px;
+  height: 240px;
+}
+
+
+

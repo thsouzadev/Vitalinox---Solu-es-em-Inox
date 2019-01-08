@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <title>Vital Inox - Contato</title>
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet"> 
+
+  </head>
+    
+  <body>
+  
+  <!--HEADER -->
+   <header>
+     <nav class="navbar navbar-expand-lg navbar-light container">
+      <a class="navbar-brand" href="index.html">
+      <img id="logotipo" src="img/logotipo_VitalInox.png" alt="Imagem com logotipo da empresa VitalInox"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon nav-text"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="index.html">INÍCIO <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text link-active" href="quemsomos.html">SOBRE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="produtos.html">PRODUTOS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle nav-text" href="servicos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SERVIÇOS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item nav-text" href="acessibilidade.html">ACESSIBILIDADE</a>
+              <a class="dropdown-item nav-text" href="#">CORRIMÃO</a>
+              <a class="dropdown-item nav-text" href="#">REVESTIMENTO</a>
+              <a class="dropdown-item nav-text" href="#">HIDRANTE</a>
+              <a class="dropdown-item nav-text" href="#">GUARDA-CORPO</a>
+              <a class="dropdown-item nav-text" href="#">GUARDA-CORPO EM VIDRO</a>
+              <a class="dropdown-item nav-text" href="#">PROJETOS ESPECIAIS</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-text" href="#">PORTFOLIO</a>
+          </li>
+          <li class="nav-item redes-sociais">
+            <a class="nav-link nav-text" href="contato.html">CONTATO</a>
+          </li>
+          <li class="nav-item redes">
+            <a class="nav-link" href="#"><img src="img/icon_Facebook.png" alt="Icone do Facebook"></a>
+          </li>
+          <li class="nav-item redes">
+            <a class="nav-link" href="#"><img src="img/icon_Instagram.png" alt="Icone do Instagram"></a>
+          </li>
+          <li class="nav-item redes">
+            <a class="nav-link" href="#"><img src="img/icon_Linkedin.png" alt="Icone do Linkedin"></a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+   </header>
+  
+  <!--INTRODUCAO -->
+   
+    <section>
+    
+     <div class="bg-contato container-fluid">
+     <p class="text-center title">CONTATO</p>
+     </div>
+      
+    </section>
+   
+    <!--CONTATO -->
+    
+    <section class="contato container">
+      
+      <div class="row container justify-content-center mt-5 ">
+     <div class="col-12 col-md-5">
+        <form action="enviar.php" method="post" name="form" class="formphp">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Digite o seu nome">
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="text" placeholder="Digite um endereço de e-mail válido">
+          <label for="telefone">Telefone</label>
+          <input id="telefone" name="telefone" type="text" placeholder="Digite o seu número de telefone">
+
+          <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+          <input type="text" class="nao-aparece" name="leaveblank">
+          <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+          <input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+          <label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" placeholder="Escreva a sua mensagem aqui..."></textarea>
+
+          <button class="btn-color" id="enviar" name="enviar" type="submit">ENVIAR</button>
+        </form>
+      </div>
+      
+      <div id="map" class="col-12 col-md-5">
+        <img src="img/map.jpg" alt="Imagem de um mapa">
+        
+        <div id="placeholder" class="mt-4">
+        <img src="img/placeholder.png" alt="Imagem de um Mapa">
+        <p class="text-black">Rua São Bernardo, 510, Frente - Cidade Mãe do   Céu - São Paulo
+        </p>
+      </div>
+      
+      <div id="phone">
+        <img src="img/phone.png" alt="Imagem de um smartphone">
+        <p class="text-black"> (11) 2893-4776 / (11) 9 5247-7224 (Whatsapp)</p>
+      </div>
+      
+      <div id="mail">
+        <img src="img/mail.png" alt="Imagem de uma carta">
+        <p class="text-black"> contato@vitalinox.com.br</p>
+      </div>
+      </div>
+      
+      
+      
+    </div>
+       
+    </section>
+    
+         
+    <!-- QUEBRA -->
+    
+    <div id="contato-quebra" class="container-fluid text-center mt-5">
+      <div class="container">
+      <p class="title">Na Vital Inox desenvolvemos produtos únicos, soluções inovadoras que agregam qualidade, sofisticação, 
+      design e robustez. 
+      Nossos clientes são a nossa prioridade.</p>
+      </div>
+    </div>
+     
+    <!--FOOTER -->
+    
+    <footer class="container text-center">
+      <div class="row mt-3 ">
+        <div class="col-lg-4 col-sm-12 text-black text-center">
+          <h2>QUEM SOMOS</h2>
+          <p class="pb-3">Clique abaixo e conheça mais sobre a Vital Inox, uma empresa especializada na fabricação, montagem, manutenção e acessórios em aço inox para a área de construção civil, segurança e arquitetura!</p>
+          <a class="btn-color" href="quemsomos.html">QUEM SOMOS</a>
+        </div>
+        
+        <div class="col-lg-4 col-sm-12 text-black text-center">
+          <h2>CONTATO</h2>
+          <p class="pb-3"> Rua São Bernardo, 510, Frente - Cidade Mãe do   Céu - São Paulo<br>
+           (11) 2893-4776<br>
+           (11) 9 5247-7224 (Whatsapp)
+          </p>
+          
+        </div>
+        
+        <div class="col-lg-4 col-sm-12 text-black text-center">
+          <h2>REDES SOCIAIS</h2>
+          <p>Acompanhe a Vital Inox nas redes sociais e fique por dentro das nossas novidades e promoções!</p>
+          <ul class="ul-footer">
+           <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/icon_Facebook.png" alt="Icone do Facebook"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/icon_Instagram.png" alt="Icone do Instagram"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/icon_Linkedin.png" alt="Icone do Linkedin"></a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="rodape text-center">
+      <p class="pt-2 pb-2">Vital Inox 2018  - Desenvolvido por Thiago Souza - Todos os direitos reservados.</p>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+   <script type="text/javascript" src="js/bootstrap.js"></script>
+   <script type="text/javascript" src="js/popper.min.js"></script>
+   <script src="js/main.js"></script>
+    
+  </body>
+</html>

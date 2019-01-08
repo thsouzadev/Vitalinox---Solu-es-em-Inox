@@ -1,0 +1,129 @@
+@media only screen and (max-width: 768px) {
+  
+  /* GERAL */ 
+  
+   h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .text-black {
+    font-size: 14px;
+  }
+  
+  .btn-color, .btn-white {
+   font-size: 14px; 
+  }
+  
+  /* HEADER */
+  
+  #logotipo {
+    width: 80%;
+  }
+  
+  .redes {
+    display: none;
+  }
+    
+  /* HOME INTRODUCAO */
+  
+  .title {
+    font-size: 30px;
+  }
+  .bg-intro {
+    background: url(../img/bg-home-768px.jpg) no-repeat center;
+    height: 300px;
+    width: 100%;
+    padding-top: 110px;
+    background-size: cover;
+  }
+  
+  /* SERVICOS */
+  
+  
+  
+  /* HOME QUEBRA */
+  
+  #home-quebra {
+    background: url(../img/bg-home-2-768px.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+  }
+  #home-quebra p {
+    font-size: 24px;
+  }
+  
+   /* FOOTER */
+  
+  .ul-footer {
+    display: flex;
+    margin-left: 90px;
+  }
+  
+}
+
+@media only screen and (max-width: 576px) {
+  
+  /*---GERAL---*/
+  
+  h1 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  .text-black {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 24px; 
+  }
+  .row div {
+    margin-left: 15px;
+  }
+  .btn-color, .btn-white {
+   font-size: 12px; 
+  }
+  .rodape p {
+    font-size: 12px;
+  }
+  
+  /*---HEADER---*/
+  
+  .nav-text {
+   font-size: 14px; 
+  }  
+  
+   /*---INTRODUCAO---*/
+  
+  .bg-intro {
+    height: 190px;
+    padding-top: 60px;
+  }
+  /*---SERVIÇOS---*/
+  
+  .servicos img {
+    width: 15%;
+  }
+    
+  /*---HOME - QUEBRA---*/
+  
+  #home-quebra {
+    height: 240px;
+    padding: 45px;
+  }
+  #home-quebra p {
+    font-size: 16px;
+  }
+  
+  /*---FOOTER---*/
+  
+  .ul-footer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-left: 55px;
+  }
+  
+}
